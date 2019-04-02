@@ -1,6 +1,9 @@
 # PbScraper
 A python script to scrape Photobucket for public albums with public facing photos
 
+
+Requries: BeautifulSoup4 (install via pip)
+
 usage: PbScraper.py [-h] [--username USERNAME] [--startnum STARTNUM] [--endnum ENDNUM]
 
 optional arguments:
