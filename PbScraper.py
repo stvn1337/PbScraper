@@ -37,5 +37,8 @@ for test in range(start_index,end_index):
         thecount = int(find_between(str(count_box),"(",")"))
         if thecount != "" and thecount > 0:
             print(holder,":",str(thecount))
+    except KeyboardInterrupt:
+        print("User killed script...");
+        exit();
     except:
         pass
