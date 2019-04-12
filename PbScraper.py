@@ -38,7 +38,7 @@ for test in range(start_index,end_index):
         if thecount != "" and thecount > 0:
             print(holder,":",str(thecount))
     except KeyboardInterrupt:
-        print("User killed script...");
-        exit();
+        print("User killed script...")
+        exit()
     except:
         pass
